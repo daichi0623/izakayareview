@@ -12,7 +12,7 @@
 */
 
 Route::get('review/top', 'Admin\WordController@add');
-Route::get('review/search', 'Admin\WordController@search');
+Route::get('review/search', 'Admin\WordController@index');
 Route::get('review/word', 'Admin\WordController@word');
 Route::post('review/word', 'Admin\WordController@create' );
 Route::get('review/mypage', 'Admin\WordController@mypage' );

@@ -16,11 +16,11 @@
                     @endif
 
                     <div class="form-group row">
-                        <label class="col-md-2">タイトル</label>
+                        <label class="col-md-2">店名</label>
                         <div class="col-md-4">
                             <input type="text" class="form-control" name="title" value="{{ old('title') }}">
                         </div>
-                    </div>s
+                    </div>
                     <div class="form-group row">
                         <label class="col-md-2">性別</label>
                             <input type= "radio" name ="gender" value = "man"><b>男性</b>
